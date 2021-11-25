@@ -1,0 +1,292 @@
+*{
+   font-family: "Lucida Console", "Courier New", monospace;
+   border-radius: 5px;
+}
+.all{
+    background-color: rgb(223, 222, 222);
+}
+header{
+    color: white;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 700px;
+}
+                                        /**top**/
+header h1{
+    display: inline;
+    padding-left: 40px;
+}
+header p{
+    display: inline;
+}
+.lists{
+    font-size: x-large;
+    padding-left:40%;
+    padding-right: 0px;
+    display: inline-flex;
+}
+.lists ul li{
+    display: inline;
+    justify-content: space-between;
+}
+.home{
+    color: turquoise;
+    font-weight: bold;
+}
+button{
+    font-size:larger;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 2px;
+    background: none;
+    color: oldlace;
+}
+button.b1{
+    background-color:turquoise;
+}
+                                /**search place**/
+.part1{
+    text-align: center;
+    padding-top: 130px;
+}
+ header h1.search{
+     display: block;
+ }
+ .place{
+     background: none;
+     height: 40px;
+     width: 500px;
+     color: oldlace;
+     border-radius: 2px;
+     text-decoration: none;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .submit{
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .small{
+     padding-top: 20px;
+     padding-left: 500px;
+ }
+                                    /**first icons**/
+ .icon1{
+     padding-top: 50px;
+     height: 150px;
+     background-color: rgb(223, 222, 222);
+     text-align: center;
+     font-weight: bold;
+ }
+ .logo{
+     justify-content: space-around;
+     font-size:30px;
+   padding-top: 20px;
+   word-spacing: 120px;
+ }
+                                    /**second icons**/
+ .icon2 h1{
+     padding-left: 40px;
+ }
+ .icon2{
+     background-color: white;
+     padding-top: 10px;
+    
+ }
+ .icon2 h3{
+     color: turquoise;
+     padding-left: 40px;
+ }
+ .icon2 p{
+     color: gray;
+     padding-left: 40px;
+ }
+ .card{
+    display: inline-flex;
+    text-align:center ;
+    width: 100%;
+  word-spacing: 10px;
+  height: 500px;
+  
+ }
+ .card i{
+        font-size: 40px;
+ }
+ .card h4{
+        font-size: 20px;
+        color: #000;
+        margin: 10px;   
+ }
+ .card1{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 100px;
+    background-color:  rgb(229, 231, 231);
+    padding-top: 20px;
+    border-radius: 2px;
+ }
+ .card2{
+    margin: 100px;
+    background-color:  rgb(229, 231, 231);
+    padding-top: 20px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card3{
+    margin: 100px;
+    background-color:  rgb(229, 231, 231);
+    padding-top: 20px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+                                /**third icons**/
+.word{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 500px;
+    color: white;
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.card-th{
+    display: inline-flex;
+    text-align:center ;
+    width: 100%;
+    word-spacing: 10px;
+    height:900px;
+    color: black;
+}
+.card4{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 100px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 2px;
+}
+.card5{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 100px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 2px;
+}
+.card6{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 100px;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 2px;
+}
+.center{
+    background-color: turquoise;
+    margin: 40px;
+    height: 100px;
+}
+.center h1{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.card-th p{
+    padding-top: 20px;
+    color: gray;
+    font-size: smaller;
+    height: 80px;
+}
+.check{
+    padding-top: 30px;
+    color: gray;
+    text-align: left;
+    margin: 10px;
+    font-size: large;
+}
+.finsh{
+    background-color: aquamarine;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.word  h4{
+        color: aquamarine;
+}
+.cloud{
+    color: black;
+    font-size: xx-large;
+}
+/**fourth icons**/
+.fourth-icons{
+    padding-top: 650px;
+    padding-left: 170px;
+}
+.i1{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 120px;
+    width: 600px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.i1 i{
+    font-size:50px;
+}
+/**section5**/
+.section5{
+    background-color:rgb(223, 222, 222) ;
+    padding-top: 80px;
+    text-align: center;
+   
+}
+.section5 h3{
+    color: aquamarine;
+}
+.section5 h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.section5 i{
+    font-size: 70px;
+    color: aquamarine;
+}
+.section5 p{
+    color: gray;
+}
+.f{
+   background-color: aquamarine;
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+}
+.footer{
+   
+   display: inline-flex;
+   height: 300px;
+   color: rgb(196, 195, 195);
+   padding: 20px;
+
+}
+.footer hr{
+    color: gray;
+}
+.end{
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    
+}
+.end p{
+    color: gray;
+    text-align: center;
+}
+
+
